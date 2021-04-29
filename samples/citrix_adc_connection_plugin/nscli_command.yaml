@@ -3,7 +3,8 @@
   connection: citrix.adc.ssh_citrix_adc
   gather_facts: False
   vars:
-    ansible_python_interpreter: /var/python/bin/python
+    #ansible_python_interpreter: /var/python/bin/python
+    ansible_python_interpreter: /var/python/bin/python3
 
     # Any valid nscli command works
     nscli_command: "show ns ip"
